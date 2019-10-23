@@ -1,66 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.csjbot.csjsdkdemo.MainActivity">
+    android:gravity="center"
+    tools:ignore="HardcodedText"
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/bt_alice_arm_right_up"
+        android:id="@+id/btnTest1"
+        android:text="Test 1"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Clicking start and stop button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alice右臂抬起"
-        />
+        android:layout_height="wrap_content"/>
+
 
     <Button
-        android:id="@+id/bt_alice_arm_right_down"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alice右臂放下"
-        />
+        android:id="@+id/btnTest2"
+        android:text="Test 2"
+        android:layout_marginTop="@dimen/spaceSmall"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Automatically start/stop voice recognition after 10 seconds"
+        android:gravity="center"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"/>
+
 
     <Button
-        android:id="@+id/bt_happy_expression"
+        android:id="@+id/btnTest3"
+        android:text="Test 3"
+        android:layout_marginTop="@dimen/spaceSmall"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Using New SDK"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="开心表情"
-        />
+        android:layout_height="wrap_content"/>
+
 
     <Button
-        android:id="@+id/bt_save_map"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="保存机器人当前地图(一般使用思岚软件扫完或编辑完地图之后保存一次即可)"
-        />
-    <Button
-        android:id="@+id/bt_save_point1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="保存当前位置信息(位置1)"
-        />
+        android:id="@+id/btnTest4"
+        android:text="Test 4"
+        android:layout_marginTop="@dimen/spaceSmall"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/bt_save_point2"
+    <TextView
+        android:text="Using Code Like CSJ"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="保存当前位置信息(位置2)"
-        />
-
-    <Button
-        android:id="@+id/bt_navi_point1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="导航到位置1"
-        />
-
-    <Button
-        android:id="@+id/bt_navi_point2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="导航到位置2"
-        />
-
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

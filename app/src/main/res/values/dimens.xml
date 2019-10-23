@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="buttonWidth">300dp</dimen>
+    <dimen name="spaceSmall">10dp</dimen>
+    <dimen name="textResult">20sp</dimen>
+    <dimen name="micSize">80dp</dimen>
+</resources>

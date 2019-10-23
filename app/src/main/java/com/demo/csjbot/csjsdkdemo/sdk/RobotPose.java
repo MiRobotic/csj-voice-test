@@ -1,4 +1,4 @@
-package com.demo.csjbot.csjsdkdemo;
+package com.demo.csjbot.csjsdkdemo.sdk;
 
 public class RobotPose {
     private String poseName;

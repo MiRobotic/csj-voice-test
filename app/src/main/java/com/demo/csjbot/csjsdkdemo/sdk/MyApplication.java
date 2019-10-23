@@ -1,4 +1,4 @@
-package com.demo.csjbot.csjsdkdemo;
+package com.demo.csjbot.csjsdkdemo.sdk;
 
 import android.app.Application;
 
